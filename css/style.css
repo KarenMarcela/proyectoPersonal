@@ -10,8 +10,6 @@ body{
     background-color:rgb(241, 232, 240) ;
 }
 
-
-
 nav{
     width: 100%;
     height: 80px;
@@ -28,10 +26,7 @@ nav{
     height: 80px;
     width: 100%;
     align-items: center;
-
 }
-
-
 
 .links-header{
     
@@ -40,6 +35,7 @@ nav{
     transition: all ease-in-out .7s;
     margin-left: 580px;
 }
+
 nav .links-header a{
     
     color: rgb(0, 0, 0);
@@ -48,6 +44,7 @@ nav .links-header a{
     padding: 12px;
     border-radius: 10px;
 }
+
 nav .links-header a:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(235, 197, 225) ;
@@ -55,28 +52,20 @@ nav .links-header a:hover{
     transition: all ease-in-out .6s;
 }
 
-
 body main{
     margin-top: 100px;
     padding: 20px;
 }
+
 .title{
     margin-top: 120px;
     width: 100%;
 }
+
 .title h2{
     text-align: center;
 }
-/* .container{
-    padding: 20px 20px 20px 20px;
-    height: 1000px;
-    gap: 3;
-    width: 1250px;
-    margin:20px;
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-} */
+
 .container{
     width: 100%;
     padding: 20px;
@@ -84,45 +73,40 @@ body main{
     justify-content: space-between;
     
 }
+
 .img{
     width: 25%;
     margin: 25px;
 }
+
 img{
     width: 100%;
     height: 350px;
     border-radius: 20px;
 }
+
 img:hover{
     transform: scale(1.1);
 }
+
 .text{
     text-align: center;
     color:#2b2929;
-    padding: 8px;
-
-}
-.start{
-    margin-left: 30px;
-    background: rgba(218, 106, 184, 0.918) ;
-    border-radius: 10px;
-    height: 100%;
+    padding: 15px;
 }
 
 .trends {
-    padding: 10px;
-    margin: 15px 0;
+    /* padding: 10px;
+    margin: 15px 0; */
     border-radius: 10px;
     width: 100%;
-    display: block;
-
 }
 
 .trends .container{
-   
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 /* Color para indicar en donde se encuentra */
 .color_inicio{
@@ -141,26 +125,23 @@ img:hover{
     background-color: rgb(235, 197, 225) ;
 }
 
-
-
 .contact{
     text-align: center;
     font-size: 18px;
     margin-bottom: 30px;
-    
 }
-
 
 footer{
     background: rgba(199, 125, 177, 0.918) ;
     color:#2b2929;
 }
+
 .footer-contact{
     text-align: center;
 }
+
 .footer-social-netwoks{
     text-align: center;
-
 }
 
 .fa-brands{
